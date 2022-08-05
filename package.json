@@ -1,16 +1,16 @@
 {
   "name": "@stefanprobst/eslint-config-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "git@github.com:stefanprobst/eslint-config-react.git",
   "license": "MIT",
   "main": "./configs/base.js",
   "exports": {
     ".": "./configs/base.js",
-    "cypress": "./configs/cypress.js",
-    "jest": "./configs/jest.js",
-    "next": "./configs/next.js",
-    "storybook": "./configs/storybook.js",
-    "type-checking": "./configs/type-checking.js"
+    "./cypress": "./configs/cypress.js",
+    "./jest": "./configs/jest.js",
+    "./next": "./configs/next.js",
+    "./storybook": "./configs/storybook.js",
+    "./type-checking": "./configs/type-checking.js"
   },
   "files": [
     "configs"
