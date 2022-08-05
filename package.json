@@ -1,0 +1,67 @@
+{
+  "name": "@stefanprobst/eslint-config-react",
+  "version": "1.0.0",
+  "repository": "git@github.com:stefanprobst/eslint-config-react.git",
+  "license": "MIT",
+  "main": "./configs/base.js",
+  "exports": {
+    ".": "./configs/base.js",
+    "cypress": "./configs/cypress.js",
+    "jest": "./configs/jest.js",
+    "next": "./configs/next.js",
+    "storybook": "./configs/storybook.js",
+    "type-checking": "./configs/type-checking.js"
+  },
+  "files": [
+    "configs"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.4.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.7.0",
+    "eslint-plugin-jest-dom": "^4.0.2",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-storybook": "^0.6.3",
+    "eslint-plugin-testing-library": "^5.6.0",
+    "eslint-plugin-typescript-enum": "^2.1.0"
+  },
+  "peerDependencies": {
+    "@next/eslint-plugin-next": ">=13.0.0",
+    "@testing-library/jest-dom": ">=5.16.0",
+    "@testing-library/react": ">=12.0.0",
+    "cypress": ">=10.0.0",
+    "eslint": ">=8.0.0",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "typescript": ">=4.7.0",
+    "jest": ">=28.0.0",
+    "storybook": "6.9.0"
+  },
+  "peerDependenciesMeta": {
+    "@next/eslint-plugin-next": {
+      "optional": true
+    },
+    "@testing-library/dom": {
+      "optional": true
+    },
+    "@testing-library/react": {
+      "optional": true
+    },
+    "cypress": {
+      "optional": true
+    },
+    "jest": {
+      "optional": true
+    },
+    "storybook": {
+      "optional": true
+    }
+  }
+}
